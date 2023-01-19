@@ -64,7 +64,7 @@ async def pm_text(bot, message):
     user = message.from_user.first_name
     user_id = message.from_user.id
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
-    await message.reply_text("<b>To get movie/series please send movie name in our group this bot provide movie in group .Group link:- https://t.me/+N_YurZVkTsE4MzQ1⚠️⚠️⚠️No ads direct file.</b>")
+    await message.reply_text("<b>To get movie/series please send movie name in our group this bot provide movie in group .Group link:- https://t.me/+N_YurZVkTsE4MzQ1 ⚠️⚠️⚠️ Note:-No ads direct file.</b>")
     await bot.send_message(
         chat_id=LOG_CHANNEL,
         text=f"<b>#PM_MSG\n\nName : {user}\n\nID : {user_id}\n\nMessage : {content}</b>"
